@@ -1,0 +1,33 @@
+.banner {
+    position: relative;
+    background-image: linear-gradient(180deg,#212121 31%,rgba(17,24,33,0.05) 100%),url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    margin-bottom: 50px;
+    .div-color-white {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMnZ3IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTY0MCAxMzlMMCAwdjE0MGgxMjgwVjBMNjQwIDEzOXoiLz48L2c+PC9zdmc+);
+        bottom: 0;
+        height: 250px;
+        left: 0;
+        right: 0;
+        position: absolute;
+    }
+    .inner-container {
+        text-align: center;
+        h1 {
+            font-size: 153px;
+            color: #E7CE79;
+            line-height: 1.1em;
+            text-transform: uppercase;
+            margin-bottom: 55px;
+            text-shadow: 0em 0.1em 0.1em rgb(0 0 0 / 40%);
+        }
+        h2 {
+            color: white;
+            font-weight: 600;
+            font-size: 26px;
+        }
+    }
+}
